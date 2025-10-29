@@ -1,0 +1,20 @@
+Step 1: Stop the Running Server
+If your Django development server is already running, stop it by pressing:
+Step 2: Run the Server on Port 8080
+From the terminal, make sure you are in the project directory (where manage.py is located), then run:
+python manage.py runserver 8080
+Django will now start the development server on port 8080.
+You should see output similar to this:
+Watching for file changes with StatReloader
+Performing system checks
+System check identified no issues 
+
+Django version 5.x.x, using settings 'myfirstproject.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+Step 3: Open in Browser
+Open your web browser and go to:
+http://127.0.0.1:8080/
+You will see the message:
+Welcome to Django!
+This confirms that your Django project is running successfully on port 8080.
