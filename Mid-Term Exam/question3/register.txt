@@ -1,0 +1,15 @@
+Create a superuser:
+Run this command in the terminal:
+python manage.py createsuperuser
+
+
+Then enter:
+Username: admin
+Email: admin@example.com
+Password: ********⃣
+Run the development server
+python manage.py runserver
+
+Go to http://127.0.0.1:8000/admin/
+
+and log in using superuser credentials.
