@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Add Student</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f2f8ff; padding: 2rem; }
+    form { background: #fff; padding: 1.5rem; border-radius: 8px; width: 400px; margin: auto; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    input, select { width: 100%; padding: 8px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background-color: #007BFF; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; }
+    button:hover { background-color: #0056b3; }
+  </style>
+</head>
+<body>
+  <h1>Add New Student</h1>
+
+  <form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save Student</button>
+  </form>
+
+  <p><a href="{% url 'student_list' %}">← Back to Student List</a></p>
+</body>
+</html>
