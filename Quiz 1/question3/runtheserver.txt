@@ -1,0 +1,11 @@
+Step 4: Run the Server
+In terminal run:
+python manage.py runserver
+
+Then open your browser and go to:
+http://127.0.0.1:8000/myproject
+
+
+we will see this text on the screen:
+Welcome to Django!
+Congratulations — your first Django view is live!
