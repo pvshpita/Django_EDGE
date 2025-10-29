@@ -1,0 +1,8 @@
+{% extends 'library/base.html' %}
+{% block content %}
+<h2>{{ book.title }}</h2>
+<p><strong>Author:</strong> {{ book.author }}</p>
+<p><strong>Published Year:</strong> {{ book.published_year }}</p>
+<p><strong>Available:</strong> {{ book.available|yesno:"Yes,No" }}</p>
+<a href="{% url 'book_list' %}" class="btn btn-secondary">← Back</a>
+{% endblock %}
