@@ -1,0 +1,4 @@
+Make migrations for studentapp:
+This generates the migration file for Student model:
+
+python manage.py makemigrations studentapp
