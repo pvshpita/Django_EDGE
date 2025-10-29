@@ -1,0 +1,7 @@
+Already implemented in base.html — includes:
+
+Home → Book list
+
+Add Book → Add form
+
+About → Placeholder page
