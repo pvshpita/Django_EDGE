@@ -1,0 +1,4 @@
+Create the app: 
+Run this command to the terminal inside project directory:
+
+python manage.py startapp studentapp
